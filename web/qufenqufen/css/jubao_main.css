@@ -1,0 +1,45 @@
+﻿@charset "utf-8";
+/* CSS Document */
+.reportbg{background-color:rgba(0,0,0,0.2); width:100%; height:100%;position:fixed;top:0;left:0; z-index:500;}
+.jubao_bannerbox{width:900px;height:740px;  position:fixed;top:50%; left:50%; margin-left:-450px; margin-top:-370px; background-color:#fff; z-index:999;}
+.jubao_top{width:860px;height:56px;line-height:56px;font-size:22px;background-color:#efefef;padding:0px 20px 0px 20px; }
+.jubao_cha{float:right; margin-top:12px;}
+/*举报页面*/
+.jubao_banner{width:856px;height:640px;overflow:hidden;margin:22px;}
+/*举报页面1*/
+.jubao1_banner{background: url(../images/jubaoyoujiangdun.jpg) center 0px no-repeat;overflow:hidden; }
+.jubao1_text1{ margin:252px 0px 53px;text-align:center;font-size:15px;color:#878787;}
+.jubao1_text2{font-size:18px;color:#808080; margin-left:88px;}
+.jubao1_text2 li{ display:inline; line-height:32px; margin-left:30px;margin-right:30px;}
+.jubao1_text2 li:nth-child(1){ background:url(../images/youjiangtubiao1.png) no-repeat 0px -9px; padding-left:40px;}
+.jubao1_text2 li:nth-child(2){ background:url(../images/youjiangtubiao2.png) no-repeat 0px -1px;padding-left:31px;}
+.jubao1_text2 li:nth-child(3){ background:url(../images/youjiangtubiao3.png) no-repeat 0px -1px;padding-left:35px;}
+.jubao1_text2 li:nth-child(4){ background:url(../images/youjiangtubiao4.png) no-repeat 0px -1px;padding-left:32px;}
+.jubao1_text3{ margin:53px 0px 52px;text-align:center;font-size:13px;color:#72b6ff;}
+#jubao{ width:152px; height:52px; background-color:#ffa740; margin:0 auto;display:block;font-size:18px;color:#fff;cursor:pointer;}
+/*举报页面2*/
+.jubao2_banner{width:856px;height:640px;background-color:#fafafa;overflow:hidden;font-size:14px;}
+
+.jubao2_text1{width:152px;height:46px;color:#000;text-align:right;float:left;line-height:46px;}
+.formbox{ margin-top:8px; padding-right:20px; }
+.usernumber,.username{width:282px;height:44px;border:#ccc solid 1px;color:#999;padding-left:20px; margin-left:4px;}
+.jubao2_text2{color:#7a7a7a; margin-left:156px; line-height:22px; margin-top:4px;}
+.jubao_cont{width:628px;height:44px;border:#ccc solid 1px;color:#999;padding-left:20px; margin-left:4px;}
+.jubao_cont2{width:608px;height:106px;border:#ccc solid 1px;color:#999;padding:10px 20px 10px 20px;outline:none;margin-left:4px;line-height:20px;font-size:12px; font-family:"微软雅黑"}
+.jubao_yanzheng{width:160px;height:44px;border:#ccc solid 1px;padding-left:20px;color:#999;margin-left:4px;display:block;float:left;}
+#jubao_yanzheng_img{ float:left;margin-left:10px; margin-right:10px;}
+#jubao_btn{width:250px;height:50px; background-color:#ffa740; margin:26px auto 0px auto; display:block; cursor:pointer;font-size:20px;color:#fff;}
+
+.jubao_tishi{margin-left:156px; background:url(../images/tishi.png) no-repeat 0px 3px; padding-left:20px;margin-top:2px; }
+
+
+/*举报页面3*/
+.jubao3_banner{width:856px;height:640px; background:url(images/querengou.png) no-repeat 106px 60px #fafafa;overflow:hidden; }
+.jubao3_text1{ font-size:20px;color:#000; margin-top:60px; margin-left:164px;}
+.jubao3_text2{ font-size:14px;color:#8c8c8c; margin-top:2px; margin-left:164px;}
+.jubao2_text3{ line-height:46px;color:#72b6ff;}
+
+.hidden{display:none;}
+.hide{
+	display: none;
+}

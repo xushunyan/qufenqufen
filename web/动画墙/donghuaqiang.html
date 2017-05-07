@@ -1,0 +1,132 @@
+<!doctype html>
+<html>
+<head>
+
+
+<style>
+
+
+.fla-banner{margin-top:80px;margin-bottom:80px;}
+.fla{width:1200px; height:450px;margin:0 auto; background-color:#f7f7f7;overflow:hidden;}
+
+.fla_tittle{text-align:center; font-size:40px; font-family:"微软雅黑";color:#333;padding-top:20px;height:70px;}
+.fla_tittle span{ width:40px;height:50px; background-color:white;padding:4px 10px 4px 10px; margin:0px 3px 0px 3px;box-shadow:0px 1px 10px rgba(0,0,0,0.3);}
+.boxbanner{
+	}
+.box{width:264px;height:75px;position:absolute; float:left;}
+
+#box1{background:url(images/cai.png) 50% no-repeat; }
+#box2{background:url(images/dai.png) 50% no-repeat;}
+#box3{background:url(images/dong.png) 50% no-repeat;}
+#box4{background:url(images/guo.png) 50% no-repeat;}
+#box5{background:url(images/huang.png) 50% no-repeat;}
+#box6{background:url(images/jin.png) 50% no-repeat;}
+#box7{background:url(images/li.png) 50% no-repeat;}
+#box8{background:url(images/li2.png) 50% no-repeat;}
+#box9{background:url(images/ma.png) 50% no-repeat;}
+#box10{background:url(images/pan.png) 50% no-repeat;}
+#box11{background:url(images/qian1.png) 50% no-repeat;}
+#box12{background:url(images/quan.png) 50% no-repeat;}
+#box13{background:url(images/ru.png) 50% no-repeat;}
+#box14{background:url(images/sun.png) 50% no-repeat;}
+#box15{background:url(images/wang.png) 50% no-repeat;}
+#box16{background:url(images/zhang.png) 50% no-repeat;}
+#box17{background:url(images/zhao.png) 50% no-repeat;}
+#box18{background:url(images/zheng.png) 50% no-repeat;}
+#box19{background:url(images/zhong.png) 50% no-repeat;}
+#box20{background:url(images/zhou.png) 50% no-repeat;}
+#box21{background:url(images/wu.png) 50% no-repeat;}
+#box22{background:url(images/xu.png) 50% no-repeat;}
+#box23{background:url(images/yang.png) 50% no-repeat;}
+
+
+
+</style>
+
+<script src="jquery.js"></script>
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>无标题文档</title>
+</head>
+
+<body>
+
+<!--flash板块-->
+<div class="fla-banner">
+    <div class="fla">
+        <div class="fla_tittle">已有&nbsp;<span>2</span><span>3</span><span>3</span><span>3</span>&nbsp;位同学加入趣分趣分</div>
+        <div class="boxbanner">
+        
+
+
+
+        
+            <div class="box" id="box1"></div>
+            <div class="box" id="box2"></div>
+            <div class="box" id="box3"></div>
+            <div class="box" id="box4"></div>
+            <div class="box" id="box5"></div>
+            <div class="box" id="box6"></div>
+            <div class="box" id="box7"></div>
+            <div class="box" id="box8"></div>
+            <div class="box" id="box9"></div>
+            <div class="box" id="box10"></div>
+            <div class="box" id="box11"></div>
+            <div class="box" id="box12"></div>
+            <div class="box" id="box13"></div>
+            <div class="box" id="box14"></div>
+            <div class="box" id="box15"></div>
+            <div class="box" id="box16"></div>
+            <div class="box" id="box17"></div>
+            <div class="box" id="box18"></div>
+            <div class="box" id="box19"></div>
+            <div class="box" id="box20"></div>
+            <div class="box" id="box21"></div>
+            <div class="box" id="box22"></div>
+            <div class="box" id="box23"></div>
+    </div>
+    </div>
+</div>
+
+<script>
+
+var iSpeedX=6;
+var iSpeedY=8;
+
+window.onload=function(){
+	setInterval(function (){
+		var oDiv=document.getElementById('box1');
+		var l=oDiv.offsetLeft+iSpeedX;
+		var t=oDiv.offsetTop+iSpeedY;
+		
+		if(t>=document.documentElement.clientHeight-oDiv.offsetHeight)
+		{
+			iSpeedY*=-1;
+			t=document.documentElement.clientHeight-oDiv.offsetHeight;
+		}
+		else if(t<=0)
+		{
+			iSpeedY*=-1;
+			t=0;
+		}
+		
+		if(l>=document.documentElement.clientWidth-oDiv.offsetWidth)
+		{
+			iSpeedX*=-1;
+			l=document.documentElement.clientWidth-oDiv.offsetWidth;
+		}
+		else if(l<=0)
+		{
+			iSpeedX*=-1;
+			l=0;
+		}
+		
+		oDiv.style.left=l+'px';
+		oDiv.style.top=t+'px';
+	}, 30);
+}
+</script>
+
+
+</body>
+</html>

@@ -1,0 +1,82 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+/*help的logo板块*/
+.h_ul{ float:right;margin-top:48px;}
+.h_ipt1{ width:560px; height:38px; border:1px solid #dddddd; float:left; padding-left:20px;}
+.h_ipt2{ width:75px; height:40px; border:1px solid #dddddd;float:left; background:url(../images/err.png) no-repeat 30px 12px #dddddd; cursor:pointer;}
+
+.help_banner{ background-color:#ebebeb; padding-bottom:50px;overflow:hidden;}
+.help_banner1box{width:1200px;background-color:#ebebeb;margin:30px auto 0px;overflow:hidden;}
+
+/*help的notice板块*/
+.notice_ban{width:1200px;height:30px;overflow:hidden; line-height:30px; font-size:14px;}
+
+.notice_ul1{float:left; padding-left:30px;background:url(../images/notice.png) no-repeat 0px 9px; color:#8d8d8e;}
+.notice_ul2{float:left;width:400px;height:30px;height:30px;overflow:hidden;}
+.notice_ul2 a{color:#8d8d8e;display:block;line-height:30px;}
+.notice_ul2 a:hover{ text-decoration:underline;color:red;}
+.notice_ul3{float:left;color:#3186de;}
+
+/*help的problem板块*/
+.tittle{ font-size:18px;color:#000; margin-bottom:10px; margin-top:20px;}
+.problem_ban{overflow:hidden;}
+.problem{width:590px;height:200px;margin-bottom:30px;}
+.problem1{float:left;background:url(../images/helpwallet.png) no-repeat 60px 30px #f5f5f5;}
+.problem2{float:right;background:url(../images/helpgouwudai.png) no-repeat 60px 30px #f5f5f5;}
+.problem3{float:left;background:url(../images/helpPapers.png) no-repeat 60px 30px #f5f5f5;}
+.problem4{float:right;background:url(../images/helpdunpai.png) no-repeat 60px 30px #f5f5f5;}
+.problem:hover{ background-color:rgba(201,235,255,1);}
+.problem_text{margin-left:260px;margin-top:24px;}
+.problem_text h2{ font-size:24px;color:#000;}
+.pbm{ height:20px;}
+.pbm span{ width:6px; height:6px; display:block; float:left;background-color:#8d8d8e; border-radius:3px; margin-top:10px; margin-right:4px;}
+.pbma{color:#8d8d8e;font-size:14px;}
+.pbma:hover{ text-decoration:underline;}
+.pbm_m{ float:right; margin-right:20px;}
+.pbm_m a{color:#3186de;font-size:14px;}
+
+/*help的service板块*/
+.tittle1{ font-size:18px;color:#000; margin-bottom:20px;margin-top:10px; }
+.service_ban{ width:1200px;overflow:hidden;}
+.service_ban ul{ width:134px;height:40px;float:left; line-height:40px; padding-left:66px;}
+.service_ban a{color:#808080; font-size:16px;}
+.service_ban a:hover{ text-decoration:underline;}
+.service1{ background:url(../images/help1.png) no-repeat 10px 0px;}
+.service2{ background:url(../images/help2.png) no-repeat 10px 0px;}
+.service3{ background:url(../images/help3.png) no-repeat 10px 0px;}
+.service4{ background:url(../images/help4.png) no-repeat 10px 0px;}
+.service5{ background:url(../images/help5.png) no-repeat 10px 0px;}
+.service6{ background:url(../images/help6.png) no-repeat 10px 0px;}
+
+/*help的relation板块*/
+.tittle2{ font-size:18px;color:#000; margin-top:50px; margin-bottom:10px;}
+.relation_ban{ width:1200px; height:136px; background-color:rgba(252,252,252,0.98); position:relative;}
+.relation{float:left;height:116px; margin-top:10px; margin-bottom:10px; cursor:pointer;}
+.relation2,.relation1{width:399px;border-right:1px dashed #e5e5e5;}
+.relation3{width:400px;}
+.relation_ban ul{width:399px;overflow:hidden;}
+.relation_ban li{margin:10px auto;}
+.relation_img{width:52px;height:42px;overflow:hidden;}
+.ways{width:66px;font-size:14px; text-align:center;font-weight:bold;}
+.ways span{ font-family:"Arial";}
+.states{width:36px;height:16px; line-height:16px;font-size:12px; text-align:center; border-radius:8px;color:#fff;}
+.states1{background-color:#9ae2b7;}
+.states2{background-color:#ff789c;}
+.states3{background-color:#ffb400;}
+
+.tcode{padding:10px;position:absolute;left:560px;bottom:130px;background-color:#fff; border-radius:10px;box-shadow:0px 0px 16px rgba(88,88,88,0.5);}
+.tcode img{ width:55px; height:55px;}
+.tcode span{ width:0; height:0;border-style:solid;border-width:10px;border-color:#fff transparent transparent  transparent;position:absolute;left:30px;bottom:-19px;}
+.call{width:132px; height:70px; line-height:70px; text-align:center; font-size:16px;position:absolute;right:142px;bottom:130px;background-color:#fff;
+border-radius:10px;box-shadow:0px 0px 16px rgba(88,88,88,0.5);color:#4d4d4d;}
+.call span{ width:0; height:0;border-style:solid;border-width:10px;border-color:#fff transparent transparent  transparent;position:absolute;left:60px;bottom:-19px;}
+
+
+
+
+
+
+
+

@@ -1,0 +1,113 @@
+<!doctype html>
+<html>
+<head>
+
+
+<script src="js/jquery.js"></script>
+
+<style>
+
+/*重置*/
+body{margin:0;font-family:"微软雅黑";background-color:#fafafa; background:url(../images/beijing2.png) no-repeat -90px 470px; background-size:110% 110%;}
+input{padding:0; border:none;outline:none;margin:0;font-family:"微软雅黑";}
+a{text-decoration:none;cursor:pointer;}
+img{ display:block;border:0;}
+h3,h2,h4{ font-weight:normal; margin:0;}
+p{margin:0;}
+ul{margin:0;padding:0;}
+li{list-style:none;}
+.hidden { display:none;}
+dl,dd{margin:0;}
+
+.shoujiyanzbg{background-color:rgba(0,0,0,0.2); width:100%; height:100%;position:fixed;top:0;left:0;}
+.shoujiyanz{width:640px;height:350px; background-color:white;position:fixed;top:20%; left:50%; margin-left:-320px;}
+.shoujiyanz_top{width:600px; height:56px;line-height:56px; font-size:22px;padding:0px 20px 0px 20px; background-color:#efefef;}
+.shoujiyanzcha{float:right; margin-top:12px;}
+.shoujiyanz_p1{ margin-top:24px; margin-left:20px; color:#666; font-size:13px;}
+.shoujiyanz_p2{ margin-top:20px; margin-left:110px; color:#666; font-size:14px;}
+.shoujiyanz_p3{ margin-top:12px; margin-left:117px; color:#666; font-size:14px;}
+.shoujiyanz_yanzhen{ width:150px; height:44px; border:1px solid #ff6000;margin-left:13px;color:#999; font-size:14px; padding-left:20px;}
+.shoujiyanz_sub{width:150px; height:44px; background-color:#ff6000; font-size:20px;color:white; margin:20px 0px 20px 190px;}
+.shoujiyanz_p4{width:140px; height:30px; background-color:#ccc; margin-top:12px; margin-left:190px; color:#fff; font-size:14px; padding-left:10px; line-height:30px;}
+</style>
+
+
+<meta charset="utf-8">
+<title>无标题文档</title>
+</head>
+
+
+<body>
+
+	<div class="shoujiyanzbg"></div>
+	<div class="shoujiyanz">
+		<div class="shoujiyanz_top">手机验证 <img class="shoujiyanzcha" src="images/cha.png"></div>
+        
+        <p class="shoujiyanz_p1">校验码短信已发送到你的手机上，有效时间为30分钟，请及时查收。</p>
+        <p class="shoujiyanz_p2">手机号码 :&nbsp;&nbsp;&nbsp;&nbsp;<span>133********26</span></p>
+        <div class="shoujiyanz_p3">验证码 ：<input class="shoujiyanz_yanzhen" value="验证码"  onfocus="syOnfocus()" onblur="syOnblur()" id="shoujiyanzhenma"></div>
+        <div class="shoujiyanz_p4">
+           <span id="tiao">59</span>
+           <a href="javascript:countDown"></a>秒后重新获取
+           <meta http-equiv=refresh content=60;url='/ds02.jsp'/>
+        </div>
+        <input type="button" value="立即提交" class="shoujiyanz_sub">
+        
+   </div>
+
+
+<script>
+
+// 手机验证输入框提示语消失代码
+var Check=document.getElementById("shoujiyanzhenma");
+function syOnfocus()
+{if(Check.value=="验证码")
+ {Check.value="";}
+}
+function syOnblur()
+{if(Check.value=="")
+ {Check.value="验证码";}
+};
+
+// 手机验证时间跳转
+function countDown(secs){
+ tiao.innerText=secs;
+ if(--secs>0)
+  setTimeout("countDown("+secs+")",1000);
+ }
+ countDown(60);
+
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

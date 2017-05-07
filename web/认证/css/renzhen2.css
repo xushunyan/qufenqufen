@@ -1,0 +1,14 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+.renzheng_banner{ background-color:#f2f2f2; padding-bottom:50px;overflow:hidden;}
+.renzheng_banner1box{width:1198px;height:600px;margin:50px auto 0px;background:url(../images/z.png) 120px 80px no-repeat #FFF;overflow:hidden; }
+
+.textbox{ margin-left:188px; margin-top:80px;}
+
+.text1{ font-size:24px; color:#434343;}
+.text2{ font-size:22px; color:#434343; line-height:42px;}
+.text3{ font-size:14px; color:#41a7ff; margin-top:10px;}
+
+

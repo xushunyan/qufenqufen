@@ -1,0 +1,65 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+/*help的logo板块*/
+.h_ul{ float:right;margin-top:48px;}
+.h_ipt1{ width:560px; height:38px; border:1px solid #dddddd; float:left; padding-left:20px;}
+.h_ipt2{ width:75px; height:40px; border:1px solid #dddddd;float:left; background:url(../images/err.png) no-repeat 30px 12px #dddddd;cursor:pointer;}
+
+/*help2的banner板块*/
+.help2_banner{ background-color:#ebebeb; padding-bottom:50px;overflow:hidden;}
+.htittle{width:1200px;margin:0px auto;height:50px;}
+
+/*help2的banner板块*/
+.help2_bannerbox{width:1200px;background-color:#ebebeb;margin:0px auto;overflow:hidden;                 height:4050px;}
+
+/*help2的左边banner板块*/
+.hleft{width:190px; height:100%;background-color:#626262; float:left; padding-top:10px;}
+.hlist{width:166px;overflow:hidden; margin-left:12px; padding-bottom:10px; border-bottom:1px dashed #fff;}
+.hla{color:#fff; font-size:15px; width:138px; padding-left:28px; height:40px;line-height:40px;display:block;}
+.hla1{ background:url(../images/hB1.png) no-repeat 0px 12px;}
+.hla2{ background:url(../images/hB2.png) no-repeat 0px 12px;}
+.hla3{ background:url(../images/hB3.png) no-repeat 0px 12px;}
+.hla4{ background:url(../images/hB4.png) no-repeat 0px 12px;}
+.hla5{ background:url(../images/hB5.png) no-repeat 0px 12px;}
+.hla6{ background:url(../images/hB6.png) no-repeat 0px 12px;}
+.hla7{ background:url(../images/hB7.png) no-repeat 0px 12px;}
+.hla8{ background:url(../images/hB8.png) no-repeat 0px 12px;}
+
+.hlb{color:#fff; font-size:13px; width:138px; padding-left:28px; height:26px;line-height:26px;display:block;overflow: hidden;white-space: nowrap;
+text-overflow: ellipsis;}
+<!--.hlbc:after{content:"...";}-->
+
+/*help2的右边banner板块*/
+.hright{width:990px; height:100%;background-color:#fff; float:right; padding-left:20px;}
+.hr_box{width:970px; overflow:hidden;}
+.hright_h2{font-size:24px; line-height:40px; height:40px; width:970px;margin-top:10px; margin-bottom:10px; border-bottom:2px dashed #999; display:block;color:#1a1a1a; text-align:center;}
+.hright_h3{font-size:15px; line-height:25px;width:970px;display:block;color:#ff812d;}
+.hright_h3 span{font-family:"Arial"}
+.hright_h4{ font-size:13px; line-height:23px;color:#1a1a1a;margin-left:27px;}
+.hcolor{color:red;}
+.hsize{font-size:15px;}
+.hmar{ margin-left:132px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

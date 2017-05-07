@@ -1,0 +1,312 @@
+<!doctype html>
+<html>
+<head>
+<script src="js/jquery.js"></script>
+<link rel="shortcut icon" href="images/ico.png">
+<link charset="utf-8" href="css/zhuce1_main.css" rel="stylesheet">
+<meta charset="utf-8">
+<title>趣分趣分——深受大学生喜欢的分期购物网站</title>
+</head>
+
+<body>
+<!--top-->
+<div class="top"><img src="images/X.png" class="top_X"></div>
+<div class="top2">
+    <div class="top2box">
+        <div class="top2_l">欢迎来到一个有趣的大学生分期购物网站！</div>
+        <div class="top2_r">
+            <a>店铺入驻</a>&nbsp;&nbsp;&nbsp;&nbsp;<a>帮助中心</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="fenqijieshao.html">分期介绍</a>&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;<a 
+             style="color:#d20000;">举报有奖</a>
+        </div>
+    </div>
+</div>
+
+<!--logo板块-->
+<div class="logo_banner">
+    <div class="logo_bannerbox">
+        <a href="index.html"><img src="images/logo.png" class="logo"></a>
+        <div class="logo_bannerbox_r">
+            <div class="searchbox">
+                <input class="search">
+                <input type="button" class="search_btn" value="给我搜!" >
+            </div>
+            <div class="searchfont">
+                <a href="" >最便宜的iPhone！</a>  
+                <a href="" >小米</a> 
+                <a href="" >LOL点券</a> 
+                <a href="" >iPhone 6s</a> 
+                <a href="" >魅族</a> 
+            </div>
+        </div>
+    </div>
+</div>
+<!--注册板块-->
+<div class="register_banner">
+    <div class="register_bannerbox">
+        <div class="registerbox_top">
+            <img src="images/tubiao.png">
+            <span>注册新用户</span>
+        </div>
+        <form>
+        <div class="registerbox_mid">
+            <div class="register_mid_l">
+                <table>
+                    <tbody class="first">
+                        <tr>
+                            <td>
+                                <p>用户名</p>
+                                <div style="margin-right:54px;">
+                                    <input type="text" name="email" id="email" value="" autofocus
+                                     placeholder="请输入常用邮箱或手机作为用户名" data-input-email-suggestion="true">
+                                </div>
+                            </td>
+                            <td>
+                                <p>手机号码</p>
+                                <div>
+                                    <input type="text" name="mobile" id="mobile" value="" maxlength="11" 
+                                    placeholder="必须填写本人手机号码" autofocus>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p>设置登录密码</p>
+                                <div>
+                                    <input type="password" name="passwd" id="passwd" value="" maxlength="16" 
+                                    placeholder="输入6-16位字符或数字" autofocus>
+                                </div>
+                            </td>
+                            
+                            <td>
+                                <p>再输一次</p>
+                                <div>
+                                    <input type="password" name="passwd2" id="passwd2" value="" maxlength="16" 
+                                    placeholder="" autofocus>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p>设置交易密码</p>
+                                <div>
+                                    <input type="password" name="pay_pwd" id="pay_pwd" value="" maxlength="16" 
+                                    placeholder="与登录密码不同" autofocus>
+                                </div>
+                            </td>
+                            <td>
+                                <p>再输一次</p>
+                                <div>
+                                    <input type="password" name="pay_pwd2" id="pay_pwd2" value="" maxlength="16"
+                                     placeholder="" autofocus>
+                                 </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p>真实姓名</p>
+                                <div>
+                                    <input type="text" name="name" id="name" value="" 
+                                    placeholder="必须与本人身份证保持一致" autofocus>
+                                </div>
+                            </td>
+                            <td>
+                                <p>身份证号</p>
+                                <div>
+                                    <input type="text" name="credit_id" id="credit_id" value="" 
+                                    maxlength="18" placeholder="身份证号码" autofocus>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="2">
+                                <div>
+                                    <p>图片验证码</p>
+                                    <div class="yanzhen">
+                                        <input type="text" name="imgcode" id="imgcode" value="" maxlength="4"
+                                        autocomplete="off" placeholder="验证码" autofocus>
+                                        <span>
+                                            <img src="images/yanzhengma.png" alt="图片验证码">
+                                        </span>
+                                        <a>换一张</a>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="register_mid_m">
+            </div>
+            
+            <div class="register_mid_r">
+                <p class="register_r1">已有趣分趣分账户，立即登录</p>
+                <p class="register_r2">登 录</p>
+            </div>
+        </div>
+        <div class="registerbox_bot">
+             <div >
+                <input type="hidden" name="sms_code" id="sms_code" value="">
+                <button type="button"   class="btn" id="btn_submit" data-loading-text="提交中...">确认无误，完成注册</button>
+             </div>
+        
+            <label for="chk_agree">
+                <div>
+                   <input type="checkbox" id="chk_agree" checked="checked" value="1" class="btns">
+                </div>
+                <div class="text">
+                    已阅读并同意
+                    <a href="" target="_blank" class="btnss">《趣分趣分注册协议》</a>
+                </div>
+            </label>
+        </div>
+    </form>
+    </div>
+</div>
+<!--页脚板块-->
+<div class="footer_banner">
+    <div class="footer_bannerbox">
+        <a href="#" class="foot_logo"><img src="images/qufen logo.png"> </a>
+        <div class="foot_m">
+            <a href="aboutus.html">关于我们</a><span class="line">&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;</span><a href="#">联系我们</a><span class="line">&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;</span>
+            <a href="#">我要举报</a><span class="line">&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;</span><a href="#">加入我们</a><span class="line">&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;</span>
+            <a href="#">上门自提</a>
+            <br><a href="#" >杭州智凯家峰网络科技有限公司 版权所有</a>
+        </div>        
+        
+        <div class="phone">
+            <p style="font-size:16px;">客服电话：<span style="font-size:16px; color:#78e000">4009690963</span></p>
+            客服邮箱：cs@qfenqfen.com
+        </div>
+        <a href="#" class="foot_img"><img src="images/qi.png">钓鱼岛是中国的</a>
+    </div>
+</div>
+
+<!--登录板块-->
+<div class="loginbg hidden "></div>
+<div class="login hidden">
+    <div class="login_top">登录<img class="cha" src="images/cha.png"></div>
+    <form>
+        <div class="login_mid">
+            <input type="text" value="登录邮箱/手机号" id="login_mid_zhanghao"  onfocus="Onfocus1()" onblur="Onblur1()" >
+            <p class="login_mid_line"></p>
+            <input type="password" value="登录密码" id="login_mid_mima"   onfocus="Onfocus2()" onblur="Onblur2()"  >
+        </div>
+        <div class="login_mid2">
+            <input type="text" value="验证码" id="login_mid_check"  onfocus="Onfocus3()" onblur="Onblur3()"><img src="images/yanzhengma.png" id="login_mid_img"><p>换一张</p>
+        </div>
+        <div class="login_mid3">
+            <a class="login_mid3_l">注册新用户</a><a class="login_mid3_r">忘记登录密码?</a>
+        </div>
+        <input type="button" id="login_mid_sub" value="登&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;录">
+    </form>
+</div>
+
+<!--手机验证板块-->
+<div class="shoujiyanzbg hidden"></div>
+<div class="shoujiyanz hidden">
+  <div class="shoujiyanz_top">手机验证 <img class="shoujiyanzcha" src="images/cha.png"></div>
+  <p class="shoujiyanz_p1">校验码短信已发送到你的手机上，有效时间为30分钟，请及时查收。</p>
+  <p class="shoujiyanz_p2">手机号码 :&nbsp;&nbsp;&nbsp;&nbsp;<span>133********26</span></p>
+  <div class="shoujiyanz_p3">验证码 ：<input class="shoujiyanz_yanzhen" value="验证码"  onfocus="syOnfocus()" onblur="syOnblur()" id="shoujiyanzhenma"></div>
+  <div class="shoujiyanz_p4">
+     <span id="tiao">59</span>
+     <a href="javascript:countDown"></a>秒后重新获取
+     <meta http-equiv=refresh content=60;url= '/ds02.jsp'/>
+  </div>
+  <input type="button" value="立即提交" class="shoujiyanz_sub">
+  
+</div>
+
+
+
+<div>
+
+</div>
+
+
+
+<script>
+//顶部图片隐藏
+$(".top_X").click(function(){
+	$(".top").css("display","none");
+	});
+
+// 输入框提示语消失代码
+var Zhanghao=document.getElementById("login_mid_zhanghao");
+function Onfocus1()
+{if(Zhanghao.value=="登录邮箱/手机号")
+  {Zhanghao.value="";}
+}
+function Onblur1()
+{if(Zhanghao.value=="")
+ {Zhanghao.value="登录邮箱/手机号";}
+};
+var Mima=document.getElementById("login_mid_mima");
+function Onfocus2()
+{if(Mima.value=="登录密码")
+ {Mima.value="";}
+}
+function Onblur2()
+{if(Mima.value=="")
+ {Mima.value="登录密码";}
+};
+var Check=document.getElementById("login_mid_check");
+function Onfocus3()
+{if(Check.value=="验证码")
+ {Check.value="";}
+}
+function Onblur3()
+{if(Check.value=="")
+ {Check.value="验证码";}
+};
+
+//登录提示语消失代码
+$(".register_r2").click(function(){
+	$(".login").removeClass("hidden")
+	$(".loginbg").removeClass("hidden")
+    });
+	
+$(".cha").click(function(){
+	$(".login").addClass("hidden")
+	$(".loginbg").addClass("hidden")
+})
+
+//手机验证提示语消失代码
+$("#btn_submit").click(function(){
+	$(".shoujiyanz").removeClass("hidden")
+	$(".shoujiyanzbg").removeClass("hidden")
+    });
+	
+$(".shoujiyanzcha").click(function(){
+	$(".shoujiyanz").addClass("hidden")
+	$(".shoujiyanzbg").addClass("hidden")
+})
+
+// 手机验证输入框提示语消失代码
+var Check=document.getElementById("shoujiyanzhenma");
+function syOnfocus()
+{if(Check.value=="验证码")
+ {Check.value="";}
+}
+function syOnblur()
+{if(Check.value=="")
+ {Check.value="验证码";}
+};
+
+// 手机验证时间跳转
+function countDown(secs){
+ tiao.innerText=secs;
+ if(--secs>0)
+  setTimeout("countDown("+secs+")",1000);
+ }
+ countDown(60);
+
+
+
+
+
+
+
+</script>
+</body>
+</html>

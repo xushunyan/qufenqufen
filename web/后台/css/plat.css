@@ -1,0 +1,12 @@
+@charset "utf-8";
+/* CSS Document */
+*{margin:0;padding:0;}
+#bg{ height:890px; width:100%;}
+.img{ display:block; border:0; position:fixed;  top:50%;  left:50%; margin-top:-445px; margin-left:-960px;}
+.plat{ width:920px; height:444px;  background:url(../images/bg2.png) no-repeat 100% 100%; position:fixed;  top:50%;  left:50%; margin-top:-222px; margin-left:-460px;}
+.ipt1{ width:222px; height:32px; margin-left:600px;margin-top:110px; background:url(../images/shurukuang2.png) no-repeat; outline:none; border:0px; padding-left:20px;}
+.ipt2{ width:222px; height:32px; margin-left:600px;margin-top:47px; background:url(../images/shurukuang2.png) no-repeat; outline:none; border:0px; padding-left:20px;}
+.ipt3{ width:100px; height:32px; margin-left:600px;margin-top:41px; background:url(../images/shurukuang1.png) no-repeat; outline:none; border:0px; padding-left:20px;
+float:left; margin-right:14px}
+.ipt4{ width:182px; height:50px; margin-left:600px;margin-top:41px; background:url(../images/dengru.png) no-repeat; outline:none; border:0px; cursor:pointer; }
+#bg .check{width:104px; height:38px;margin-top:34px;}

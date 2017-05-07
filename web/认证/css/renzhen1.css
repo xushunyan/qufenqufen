@@ -1,0 +1,124 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*认证板块*/
+/*认证页切换板块*/
+.renzheng_banner{ background-color:#f2f2f2; padding-bottom:50px;overflow:hidden;}
+.renzheng_banner1box{width:1198px;height:150px;margin:50px auto 0px;background:#fff;overflow:hidden; }
+.renzheng_xinxibox{width:1198px;height:118px; border:1px solid #e5e5e5;background:url(../images/rz5.png) no-repeat 50%;}
+
+.renzheng_xinxi{width:239px;height:118px;  position:relative; float:left; cursor:pointer;}
+
+.xinxi1_jiao{ position:absolute;left:114px;top:118px;}
+.xinxi_jiao1{border-style: solid;border-width:10px;border-color:#4ba3ff transparent  transparent transparent; width:0px; height:0px;}
+.xinxi_jiao2{border-style: solid;border-width:9px;border-color:#FFF transparent  transparent transparent; width:0px; height:0px;position:absolute; left:1px;bottom:3px;}
+
+.renzheng_text1{ font-size:38px;color:#b3b3b3;margin:34px 20px 0px 30px;float:left;}
+.renzheng_text2{ font-size:15px;color:#b3b3b3; float:left;margin-top:54px;  }
+.renzheng_xinxi .renzheng_text3{margin-top:38px; line-height:24px; } 
+
+.renzheng_cur1{border:1px solid #4ba3ff;}
+.renzheng_cur2{color:#ff6000;}
+.renzheng_cur3{color:#333;}
+
+.renzheng_banner2box{width:1200px;height:776px;margin:0 auto;}
+/*认证1板块*/
+.renzheng_bannertittle{width:1020px;height:50px;line-height:50px;color:#333;font-size:15px;padding-left:180px;}
+.renzheng_form{width:1020px;margin:0 auto;background:#fff; overflow:hidden; padding-left:180px; padding-top:10px;padding-bottom:30px;}
+.rz_form_row{overflow:hidden; }
+
+.rz_form_box1{ float:left;margin-right:80px;}
+.rz_row1_text1{color:#333;font-size:15px;line-height:34px;height:34px;width:360px;padding-top:10px;}
+.rz_row1_inp1{line-height:28px;height:42px;width:340px;font-size:14px;border:1px solid #e5e5e5;color:#404040;padding-left:20px;}
+
+.rz_row1_inp2{line-height:28px;height:44px;width:362px;font-size:14px;border:1px solid #e5e5e5;color:#404040;padding-left:20px; outline:none; font-family:"微软雅黑";}
+.rz1_sub{width:230px;height:50px;font-size:20px;color:#fff; background-color:#ff6000; font-family:"微软雅黑";margin:40px 0px 30px;cursor:pointer;}
+/*认证2板块*/
+.renzheng2_box{width:1200px;height:776px;background:url(../images/rzpic.png) no-repeat 272px 50px #fff;overflow:hidden; }
+.renzheng2_box h2{ font-size:30px;color:#434343;margin-left:334px;margin-top:50px;}
+.renzheng2_box p{ font-size:14px;color:#999;margin-left:334px;line-height:30px;}
+.renzheng2_box a{ font-size:12px;color:#4ba3ff;margin-left:334px;line-height:30px;cursor:pointer;}
+
+/*认证3板块*/
+.renzheng3_box{width:1000px;height:776px;background:#fff;overflow:hidden; padding-left:200px; }
+.renzheng3_box1{ margin-top:46px;}
+.renzheng3_box1 h2{ font-size:20px;color:#434343;}
+.renzheng3_box1 p{font-size:14px;color:#999;line-height:34px;}
+
+.renzheng3_box2{ width:700px; height:150px; background-color:#faf9f9; margin-top:46px;font-size:14px;color:#999;padding:30px 40px 0px 60px;position:relative;}
+.renzheng3_box2 h2{font-size:24px;color:#434343;}
+.renzheng3_box2_p{line-height:36px;}
+.renzheng3_line{ width:100%; border-bottom:1px dashed #999; margin-top:10px;}
+.renzheng3_box2_li{overflow:hidden; margin-top:18px;} 
+.renzheng3_box2_li li{ float:left; padding-left:20px; }
+.renzheng3_box2_1{background:url(../images/rz1.png) no-repeat 0px 2px; }
+.renzheng3_box2_2{background:url(../images/rz2.png) no-repeat 0px 2px;margin-left:25px;}
+.renzheng3_box2_3{background:url(../images/rz3.png) no-repeat 0px 2px;margin-left:25px;}
+.renzheng3_g{ width:44px; height:44px; background:url(../images/rz4.png) no-repeat 0px 0px; position:absolute; bottom:0px; right:0px; }
+.rz3_box2_bor{ outline:2px solid #ff8f2b;}
+.renzheng3_btn{width:216px; height:50px; background-color:#ff6000;font-size:20px;color:#fff;margin-top:56px;cursor:pointer;}
+
+/*认证4板块*/
+.renzheng4_box{width:1200px;height:776px;background:#fff;overflow:hidden;}
+.renzheng4_box2{width:1056px;margin:0 auto; }
+.renzheng4_imgbox{margin:30px 40px 20px 40px;float:left;overflow:hidden; display:inline;}
+.renzheng4_imgbox p{ font-size:15px; color:#333; margin-bottom:12px;}
+#preview,#preview1,#preview2,#preview3,#preview4{width:260px;height:180px;border:1px solid #e5e5e5;overflow:hidden;margin-bottom:12px; }
+#imghead,#imghead1,#imghead2,#imghead3,#imghead4{filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(sizingMethod=image); margin:0 auto;}
+.renzheng4_btnbox{clear:both;overflow:hidden;}
+.renzheng4_btn{width:216px; height:50px; background-color:#ff6000;font-size:20px;color:#fff;margin-top:34px; margin-left:40px;cursor:pointer;}
+
+/*认证5板块*/
+.renzheng5_box{width:1200px;height:776px;background:#fff;overflow:hidden;}
+.renzheng5_box p{color:#3db4ff;font-size:48px; margin-top:100px; margin-left:330px;}
+
+
+/*登录弹出板块*/
+.peoplebg{background-color:rgba(0,0,0,0.2); width:100%; height:100%;position:fixed;top:0;left:0;}
+.people{width:800px;height:550px;background-color:white;position:fixed;top:50%;
+    left:50%; margin-left:-400px;margin-top:-275px;color:#333;}
+.people_top{width:760px;height:56px;line-height:56px;font-size:22px;padding:0px 20px 0px 20px;background-color:#efefef;color:#4d4d4d;}
+.peoplecha{float:right;margin-top:12px;cursor:pointer;}
+.people_text1{ margin-left:20px;line-height:56px;font-size:14px;color:#5b5b5b;}
+.people_box{ margin-left:60px;font-size:14px; margin-top:20px;}
+.people_sel{width:174px;height:44px; border:1px solid #dbdbdb;font-size:14px; outline:none; margin-right:14px;padding-left:14px; cursor:pointer;
+font-family:"微软雅黑";color:#333;}
+.people_name{width:140px;height:42px;border:1px solid #dbdbdb; padding-left:20px;margin-right:14px;}
+.people_num{width:180px;height:42px;border:1px solid #dbdbdb; padding-left:20px;}
+.people_add{width:200px;height:42px;border:1px solid #dbdbdb; padding-left:20px; margin-top:22px; margin-bottom:22px;}
+.people_btn{width:240px;height:50px; background-color:#ff6000; color:#fff;font-size:20px; margin-left:60px; margin-top:30px; cursor:pointer;}
+
+.address_box{margin-left:60px;font-size:14px; margin-top:20px;}
+.address_sel{width:118px;height:44px; border:1px solid #dbdbdb;font-size:14px; outline:none; margin-right:14px;padding-left:14px; cursor:pointer;
+font-family:"微软雅黑";color:#333;}
+
+.address_text{width:260px;height:42px;border:1px solid #dbdbdb; padding-left:10px;}
+.address_mar{ margin-top:30px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

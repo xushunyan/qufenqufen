@@ -1,0 +1,219 @@
+<!doctype html>
+<html>
+<head>
+
+
+<script src="js/jquery.js"></script>
+<link charset="utf-8" href="css/jubao_main.css" rel="stylesheet">
+
+<meta charset="utf-8">
+<title>举报有奖页面</title>
+</head>
+
+<body>
+<form>
+<div class="jubao_bannerbox">
+
+    <div class="jubao_top">举报有奖<img class="jubao_cha" src="images/cha.png"></div>
+    
+    <div class="jubao_banner">
+    
+    <!--举报页面1-->
+        <div class="jubao1_banner">
+            <p class="jubao1_text1">趣分趣分是一家正直、诚信的公司，欢迎您向我们提供以下类型的线索，谢谢您让趣分趣分变得更好！</p>
+            <ul class="jubao1_text2">
+                <li>恶意欺诈</li>|<li>弄虚作假</li>|<li>严重违法违规</li>|<li>非法获利</li>
+            </ul>
+            <p class="jubao1_text3">所有真实举报依据情节严重程度，均可获得500至10000元不等的奖励，同时，我们将为举报人的信息严格保密。</p>
+            <input value="我要举报" type="button" id="jubao">
+        </div>
+    <!--举报页面2-->
+        <div class="jubao2_banner hidden">
+            <div class="formbox">
+                <div>
+                    <p class="jubao2_text1">您的姓名：</p>
+                    <input type="text" class="username" id="jubao_ipu1" value="您的真实姓名" 
+                      onfocus="this.value='';" onblur="if(this.value==''){this.value='您的真实姓名'}">
+                </div>
+                <div class="jubao_tishi" id="jubao_tishi1">请输入真实姓名</div> 
+                
+                <div style=" margin-top:20px;">
+                    <p class="jubao2_text1">您的手机号：</p>
+                    <input type="text" id="jubao_ipu2"  
+                    class="usernumber" value="您的真实手机号" onfocus="jubao_Onfocus2()" onblur="jubao_Onblur2()">
+                </div>
+                <div class="jubao_tishi" id="jubao_tishi2">请输入真实的手机号码</div>
+                
+                <p class="jubao2_text2">如实填写身份信息可加速处理进度并获知最终处理结果，同时帮助您领取举报奖励。您的所有个人信息都将获得最大限度的保密。</p>
+                
+                <div style=" margin-top:20px;">
+                    <p class="jubao2_text1">举报主题：</p>
+                    <input value="请用一句话概括您的举报内容" class="jubao_cont" 
+                     id="jubao_ipu3"  onfocus="jubao_Onfocus3()" onblur="jubao_Onblur3()">
+                 </div>
+                 
+                <div class="jubao_tishi" id="jubao_tishi3">请输入举报主题</div>
+                
+                <div style=" margin-top:20px;">
+                    <p class="jubao2_text1">详尽描述：</p>
+                    <textarea class="jubao_cont2"  id="jubao_ipu4"  onfocus="jubao_Onfocus4()" 
+     onblur="jubao_Onblur4()">请详尽描述事件全过程，务必注明被举报人的真实姓名、联系方式以及是否为趣分趣分员工（如果您知道的话）。如果您有相关证据（如聊天记录截图/照片/录音等），可将下载链接附在此处。
+     </textarea></div>
+                <div class="jubao_tishi" id="jubao_tishi4">请输入举报内容</div>
+                <div style=" margin-top:20px;overflow:hidden;">
+                    <p class="jubao2_text1">验证码：</p><input value="请填写右侧验证码" class="jubao_yanzheng"  id="jubao_ipu5"  onfocus="jubao_Onfocus5()" onblur="jubao_Onblur5()">
+                    <img src="images/yanzhengma.png" id="jubao_yanzheng_img"><span class="jubao2_text3" >换一张</span>
+                </div>
+                <div class="jubao_tishi" id="jubao_tishi5">请输入验证码</div>
+                <input value="确认无误，立即举报"  type="button" id="jubao_btn" >
+            </div>
+        </div>
+    <!--举报页面3-->
+        <div class="jubao3_banner hidden">
+            <p class="jubao3_text1">谢谢您让趣分趣分变的更好！</p>
+            <p class="jubao3_text2">您的举报已提交，我们将尽快展开调查，并将最终处理结果及举报奖励领取方法反馈给您。</p>
+        </div>
+        
+    </div>
+</div>
+
+
+</form>
+
+
+
+<script>
+
+// 输入框提示语消失代码
+var jubaobox1=document.getElementById("jubao_ipu1");
+function jubao_Onfocus1()
+{if(jubaobox1.value=="您的真实姓名")
+  {jubaobox1.value="";}
+}
+function jubao_Onblur1()
+{if(jubaobox1.value=="")
+ {jubaobox1.value="您的真实姓名";}
+};
+
+var jubaobox2=document.getElementById("jubao_ipu2");
+function jubao_Onfocus2()
+{if(jubaobox2.value=="您的真实手机号")
+  {jubaobox2.value=""; }
+}
+function jubao_Onblur2()
+{if(jubaobox2.value=="")
+ {jubaobox2.value="您的真实手机号";}
+};
+
+var jubaobox3=document.getElementById("jubao_ipu3");
+function jubao_Onfocus3()
+{if(jubaobox3.value=="请用一句话概括您的举报内容")
+  {jubaobox3.value=""; }
+}
+function jubao_Onblur3()
+{if(jubaobox3.value=="")
+ {jubaobox3.value="请用一句话概括您的举报内容";}
+};
+
+var jubaobox4=document.getElementById("jubao_ipu4");
+function jubao_Onfocus4()
+{if(jubaobox4.value=="请详尽描述事件全过程，务必注明被举报人的真实姓名、联系方式以及是否为趣分趣分员工（如果您知道的话）。如果您有相关证据（如聊天记录截图/照片/录音等），可将下载链接附在此处。")
+  {jubaobox4.value=""; }
+}
+function jubao_Onblur4()
+{if(jubaobox4.value=="")
+ {jubaobox4.value="请详尽描述事件全过程，务必注明被举报人的真实姓名、联系方式以及是否为趣分趣分员工（如果您知道的话）。如果您有相关证据（如聊天记录截图/照片/录音等），可将下载链接附在此处。";}
+};
+
+var jubaobox5=document.getElementById("jubao_ipu5");
+function jubao_Onfocus5()
+{if(jubaobox5.value=="请填写右侧验证码")
+  {jubaobox5.value=""; }
+}
+function jubao_Onblur5()
+{if(jubaobox5.value=="")
+ {jubaobox5.value="请填写右侧验证码";}
+};
+
+// 提示框
+function checkUserName(){
+	var obj = document.getElementById('jubao_ipu1');
+	var obj1 = document.getElementById('jubao_tishi1');
+	if(obj.value == ""){
+		obj1.style.display="block";
+	}else{
+		obj1.style.display = "none";
+	}
+}
+
+//点击到下一页
+$("#jubao").click(function(){
+	$(".jubao1_banner").addClass("hidden")
+	$(".jubao2_banner").removeClass("hidden")
+    });
+
+$('#jubao_tishi1').addClass('hide');
+$('#jubao_tishi2').addClass('hide');
+$('#jubao_tishi3').addClass('hide');
+$('#jubao_tishi4').addClass('hide');
+$('#jubao_tishi5').addClass('hide');
+
+
+$("#jubao_btn").click(function(){
+    var name = /^[\u4E00-\u9FA5]{2,4}$/;
+    var iphone = /^13[0-9]{1}[0-9]{8}$|17[7]{1}[0-9]{8}$|15[01235689]{1}[0-9]{8}$|18[0256789]{1}[0-9]{8}$/;
+    var space = /\s+/;
+    if(!name.test($('#jubao_ipu1').val())){
+        $('#jubao_tishi1').removeClass('hide');
+    }else{
+        $('#jubao_tishi1').addClass('hide');
+    }
+    if(!iphone.test($('#jubao_ipu2').val())){
+        $('#jubao_tishi2').removeClass('hide');
+    }else{
+        $('#jubao_tishi2').addClass('hide');
+    }
+    if($('#jubao_ipu3').val() == '' || space.test($('#jubao_ipu3').val())){
+        $('#jubao_tishi3').removeClass('hide');
+    }else{
+        $('#jubao_tishi3').addClass('hide');
+    }
+      if($('#jubao_ipu4').val() == '' || space.test($('#jubao_ipu4').val())){
+        $('#jubao_tishi4').removeClass('hide');
+    }else{
+        $('#jubao_tishi4').addClass('hide');
+    }
+    if($('#jubao_ipu5').val() == '' || space.test($('#jubao_ipu5').val())){
+        $('#jubao_tishi5').removeClass('hide');
+    }else{
+        $('#jubao_tishi5').addClass('hide');
+    }
+    if($('.hide').length === 0){
+        $(".jubao2_banner").addClass("hidden")
+        $(".jubao3_banner").removeClass("hidden");
+    }
+    });
+
+</script>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

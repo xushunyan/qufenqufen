@@ -1,0 +1,142 @@
+<!doctype html>
+<html>
+<head>
+
+
+<script src="js/jquery.js"></script>
+
+<style>
+
+/*重置*/
+body{margin:0;font-family:"微软雅黑";background-color:#fafafa; background:url(../images/beijing2.png) no-repeat -90px 470px; background-size:110% 110%;}
+input{padding:0; border:none;outline:none;margin:0;font-family:"微软雅黑";}
+a{text-decoration:none;cursor:pointer;}
+img{ display:block;border:0;}
+h3,h2,h4{ font-weight:normal; margin:0;}
+p{margin:0;}
+ul{margin:0;padding:0;}
+li{list-style:none;}
+.hidden{display:none;}
+dl,dd{margin:0;}
+
+.loginbg{background-color:rgba(0,0,0,0.2); width:100%; height:100%;position:fixed;top:0;left:0;}
+
+.fankui{width:750px;height:476px; background-color:white;position:fixed;top:20%; left:50%; margin-left:-375px;}
+.fankui_top{width:710px;height:56px;line-height:56px; font-size:22px;padding:0px 20px 0px 20px; background-color:#efefef; color:#333;}
+.fankui_cha{float:right;margin-top:12px;}
+.fankui_box{ margin-left:100px; margin-top:20px;}
+.fankui_p1{ margin-top:14px; clear:both; overflow:hidden; margin-bottom:4px;}
+.fankui_p1 input{ width:400px;height:42px;border:1px solid #bebebe; padding-left:20px; margin-left:14px; float:left;}
+.fankui_text3{ width:100px; height:44px; text-align:right;float:left; line-height:44px;}
+.fankui_p2{ background:url(images/tishi.png) no-repeat 2px 2px; padding-left:20px; clear:both; margin-left:112px; font-size:12px; line-height:22px;}
+.fankui_text{ height:60px;width:392px;line-height:24px; outline:none; padding-left:14px;padding-right:14px; margin-left:14px; font-family:"微软雅黑"; font-size:14px; 
+margin-bottom:0px;}
+.fankui_text1{width:100px;height:42px;font-size:20px;color:white;background-color:#ff6000; margin-left:114px; margin-top:22px; display:block;}
+
+</style>
+
+
+<meta charset="utf-8">
+<title>无标题文档</title>
+</head>
+
+
+<body>
+	<div class="loginbg"></div>
+    
+	<div class="fankui">
+		<div class="fankui_top">反馈建议<img class="fankui_cha" src="images/cha.png"></div>
+        <form  class="fankui_box">
+            <div class="fankui_p1">
+                <div class="fankui_text3"><span style="color:red;">*</span>标题:</div>
+                <input type="text" placeholder="请输入标题"  onfocus="this.placeholder='';" onblur="if(this.placeholder==''){this.placeholder='请输入标题'}">
+            </div>
+           <div class="fankui_p2">请输入标题</div> 
+          
+            <div class="fankui_p1">
+                <div class="fankui_text3">QQ号码:</div>
+                <input type="text" placeholder="请输入QQ号码" autofocus>
+            </div>
+            
+            <div class="fankui_p1">
+                <div class="fankui_text3">手机号码:</div>
+                <input type="text" placeholder="请输入手机号码" autofocus>
+            </div>
+            <div class="fankui_p1">
+                <div class="fankui_text3"><span style="color:red;">*</span>详细内容:</div>
+                <textarea class="fankui_text" placeholder="请输入10字以上的字符内容" autofocus  onblur="check('fankuitittle')"></textarea>
+            </div>
+           <div class="fankui_p2">请输入反馈内容</div>  
+           <input class="fankui_text1" type="submit" placeholder="提交" autofocus  onblur="check('fankuitittle')">
+        </form>
+	</div>
+
+
+<script>
+
+// 输入框提示语消失代码
+var Zhanghao=document.getElementById("login_mid_zhanghao");
+function Onfocus1()
+{if(Zhanghao.value=="登录邮箱/手机号")
+  {Zhanghao.value=""; }
+}
+function Onblur1()
+{if(Zhanghao.value=="")
+ {Zhanghao.value="登录邮箱/手机号";}
+};
+
+var Mima=document.getElementById("login_mid_mima");
+function Onfocus2()
+{if(Mima.value=="登录密码")
+ {Mima.value="";}
+}
+function Onblur2()
+{if(Mima.value=="")
+ {Mima.value="登录密码";}
+};
+
+var Check=document.getElementById("login_mid_check");
+function Onfocus3()
+{if(Check.value=="验证码")
+ {Check.value="";}
+}
+function Onblur3()
+{if(Check.value=="")
+ {Check.value="验证码";}
+};
+
+
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

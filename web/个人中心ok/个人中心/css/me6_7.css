@@ -1,0 +1,98 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*个人中心板块*/
+.geren_banner_box{ background-color:#f7f7f7; overflow:hidden;}
+.geren_banner{width:1200px;margin-top:20px;margin-bottom:20px;overflow:hidden;margin-left:auto;margin-right:auto;}
+
+/*个人中心左边板块*/
+.geren_banner_l{ float:left;line-height:50px;}
+.geren_navbox{ border:1px solid #e5e5e5; border-bottom:0px;}
+.geren_nav_text{ font-size:20px; color:#434343; padding-left:20px;width:160px; height:50px;background-color:#fff;border-bottom:#dedede 2px solid;}
+.geren_navbox li{ width:180px; height:50px;border-bottom:#dedede 2px solid;background-color:#fff;}
+.geren_nav_bor{background-color:#fff;display:block;width:4px; height:48px;float:left; margin-top:1px;}
+.geren_nav_bor1{background-color:#ff6000;display:block;width:4px; height:48px;float:left; margin-top:1px;}
+.geren_nav img{ float:left;margin:14px;}
+.geren_navbox .geren_nav_cur{background-color:#f8f8f8; }
+.geren_nav_text1{ font-size:14px; color:#434343;}
+.geren_nav_text2{color:#ff6000;}
+
+/*个人中心右边板块*/
+.geren_banner_r{ float:right;}
+.geren_r{}
+
+/*个人中心右边板块上面部分*/
+
+.geren_r2{width:1000px;background-color:#fff;border:#dedede 1px solid;color:#434343;}
+.gerenr1_tittle{font-size:20px;color:#434343; line-height:54px;margin:0px 20px 20px 20px;border-bottom:2px solid #e5e5e5;}
+
+
+.geren6top{margin-left:20px;text-align:center;color:#434343;font-size:16px;overflow:hidden;}
+
+.geren6top1{float:left; position:relative;z-index:30;}
+.grt1box1{ display:block;width:310px; height:40px; background-color:#f4f4f4;cursor:pointer;font-size:15px; }
+.grt1box2{ width:0px; height:0px; border-style:solid;border-width:20px; border-color:transparent  transparent transparent #f4f4f4; position:absolute; top:0; left:310px;}
+
+.geren6top2{float:left; margin-left:10px; margin-right:10px;position:relative;z-index:20;}
+.grt2box1{ display:block;width:320px; height:40px; background-color:#f4f4f4;cursor:pointer;font-size:15px;}
+.grt2box2{width:0px; height:0px; border-style:solid;border-width:20px; border-color:transparent  transparent transparent #fff; position:absolute; top:0; left:0px;}
+.grt2box3{width:0px; height:0px; border-style:solid;border-width:20px; border-color:transparent  transparent transparent #f4f4f4; position:absolute; top:0; left:320px;}
+
+.geren6top3{float:left;position:relative;z-index:10;}
+.grt3box1{display:block;width:310px; height:40px; background-color:#f4f4f4;cursor:pointer;font-size:15px;}
+.grt3box2{width:0px; height:0px; border-style:solid;border-width:20px; border-color:transparent  transparent transparent #fff; position:absolute; top:0; left:0px;}
+
+.geren6top_cur{ background-color:#ff6000;color:#fff;}
+.geren6top_cur2{width:0px; height:0px; border-style:solid;border-width:20px; border-color:transparent  transparent transparent #ff6000;}
+
+
+/*个人中心右边板块下面部分*/
+
+.gerenr6_mid{width:1000px;background-color:#fff;color:#434343; height:482px;font-size:15px;}
+
+
+
+.gerenr6_ul1{ clear:both; margin-left:240px; margin-top:80px;overflow:hidden;}
+.gerenr6_ul1_li1{float:left; width:120px; text-align:right; margin-right:20px; line-height:37px;margin-bottom:6px; }
+.gerenr6_ul1_ipt1{float:left;width:327px; height:35px; border:1px solid #b3b3b3; border-radius:4px; padding-left:20px;}
+
+.gerenr6_ul2{ clear:both; margin-left:240px; margin-top:20px;overflow:hidden;}
+.gerenr6_ul2_li1{float:left; width:120px; text-align:right; margin-right:20px; line-height:37px; margin-bottom:6px;}
+.gerenr6_ul2_ipt1{float:left;width:327px; height:35px; border:1px solid #b3b3b3; border-radius:4px; padding-left:20px;}
+.gerenr6_ul2_p{ clear:both; margin-left:138px; padding-left:20px; background:url(../images/tishi.png) no-repeat; font-size:12px;}
+
+.gerenr6_ul3{ clear:both; margin-left:240px; margin-top:20px;overflow:hidden;}
+.gerenr6_ul3_li1{float:left; width:120px; text-align:right; margin-right:20px; line-height:37px;}
+.gerenr6_ul3_li2{float:left;text-align:right;line-height:37px;}
+
+.gerenr6_ul4{ clear:both; margin-left:240px; margin-top:10px;overflow:hidden;}
+.gerenr6_ul4_li1{float:left; width:120px; text-align:right; margin-right:20px; line-height:37px; margin-bottom:6px;}
+.gerenr6_ul4_ipt1{float:left;width:205px; height:35px; border:1px solid #b3b3b3; border-radius:4px; padding-left:20px;margin-right:20px;}
+.gerenr6_ul4_ipt2{float:left;width:100px; height:35px; border:1px solid #ff6000; background-color:#fff;border-radius:4px; color:#ff6000;cursor:pointer;}
+
+.gerenr6_ul5_ipt3{width:174px; height:40px;background-color:#ff6000;color:#fff; font-size:16px;margin-left:380px; margin-top:40px; cursor:pointer;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

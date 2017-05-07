@@ -1,0 +1,133 @@
+<!doctype html>
+<html>
+<head>
+<script src="js/jquery.js"></script>
+<script type="text/javascript" src="js/payfor.js"></script>
+<link rel="shortcut icon" href="images/ico.png">
+<link charset="utf-8" href="css/gouwuche_main.css" rel="stylesheet">
+<meta charset="utf-8">
+<title>趣分趣分——深受大学生喜欢的分期购物网站</title>
+</head>
+
+<body>
+<!--top-->
+<div class="top"><img src="images/X.png" class="top_X"></div>
+<div class="top2">
+    <div class="top2box">
+        <div class="top2_l">欢迎来到一个有趣的大学生分期购物网站！</div>
+        <div class="top2_r">
+            <a>店铺入驻</a>&nbsp;&nbsp;&nbsp;&nbsp;<a>帮助中心</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="fenqijieshao.html">分期介绍</a>&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;<a 
+             style="color:#d20000;">举报有奖</a>
+        </div>
+    </div>
+</div>
+
+<!--logo板块-->
+<div class="logo_banner">
+    <div class="logo_bannerbox">
+        <a href="index.html"><img src="images/logo.png" class="logo"></a>
+        <div class="logo_bannerbox_r">
+            <div class="searchbox">
+                <input class="search">
+                <input type="button" class="search_btn" value="给我搜!" >
+            </div>
+            <div class="searchfont">
+                <a href="" >最便宜的iPhone！</a>  
+                <a href="" >小米</a> 
+                <a href="" >LOL点券</a> 
+                <a href="" >iPhone 6s</a> 
+                <a href="" >魅族</a> 
+            </div>
+        </div>
+    </div>
+</div>
+<!--pro板块-->
+<div class="gouwuche_banner">
+    <div class="gouwuche_bannerbox">
+    
+        <div class="gouwuche_box1">购物车</div> 
+        
+        
+        <div class="gouwuche_box2">
+        
+            <div class="gouwuche_box2_top">
+                <div class="gouwuche_inputs"><input type="checkbox" id="all_sels"></div> 
+                <p class="gouwuche_text1">全选&nbsp;&nbsp;&nbsp;&nbsp;商品信息</p>
+            </div>
+            
+            <div class="gouwuche_box2_title">
+                <span style="margin-left:250px;">商品</span><span style="margin-left:250px;">价格</span><span 
+                style="margin-left:130px;">数量</span><span style="margin-left:130px;">总价</span><span style="margin-left:130px;">月供</span>
+            </div>
+            
+            <div class="gouwuche_box2_pro">
+            
+                <div class="p_number">
+                    <div class="gouwuche_input"><input type="checkbox" id="all_sel"></div>
+                    <div class="gouwuche_input_img"><img src="images/promin.jpg"></div>
+                    
+                    <div class="p_number_l">商品名称商品名称商品名称商品名称</div>
+                    
+                    
+                    <div class="price_item_1_box"><strong id="price_item_1">￥350</strong></div>
+                    
+                    <div class="f_l add_chose">
+                        <a class="reduce" id="abc1" onClick="setAmount.reduce('#qty_item_1')" href="javascript:void(0)">-</a>
+                        <input type="text" name="qty_item_1" value="1" id="qty_item_1" onKeyUp="setAmount.modify('#qty_item_1')" class="text" />
+                        <a class="add" onClick="setAmount.add('#qty_item_1')" href="javascript:void(0)">+</a>
+                    </div>
+                    
+                    <div class="f_l buy">
+                        <span class="total-font" id="total_item_1">￥89</span>
+                        <span class="total-font2" id="total_points">￥89</span>
+                    </div>
+                </div>
+                
+                
+                
+            </div>
+            
+            
+            
+            
+        </div>
+        
+        <div class="gouwuche_box3">
+        </div>
+    
+    
+    </div>
+    
+</div>
+
+<!--页脚板块-->
+<div class="footer_banner">
+    <div class="footer_bannerbox hidden">
+        <a href="#" class="foot_logo"><img src="images/qufen logo.png"> </a>
+        <div class="foot_m">
+            <a href="aboutus.html">关于我们</a><span class="line">&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;</span><a href="#">联系我们</a>
+            <span class="line">&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;</span>
+            <a href="#">我要举报</a><span class="line">&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;</span><a href="#">加入我们</a>
+            <span class="line">&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;</span>
+            <a href="#">上门自提</a>
+            <br><a href="#" >杭州智凯家峰网络科技有限公司 版权所有</a>
+        </div>        
+        
+        <div class="phone">
+            <p style="font-size:16px;">客服电话：<span style="font-size:16px; color:#78e000">4009690963</span></p>
+            客服邮箱：cs@qfenqfen.com
+        </div>
+        <a href="#" class="foot_img"><img src="images/qi.png">钓鱼岛是中国的</a>
+    </div>
+</div>
+
+
+<script>
+//顶部图片隐藏
+$(".top_X").click(function(){
+	$(".top").css("display","none");
+	});
+
+</script>
+</body>
+</html>

@@ -1,0 +1,41 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*个人中心板块*/
+.geren_banner_box{ background-color:#f7f7f7; overflow:hidden;}
+.geren_banner{width:1198px; height:800px; background-color:#fff; border:1px solid #e5e5e5;margin-top:20px;margin-bottom:20px;overflow:hidden;margin-left:auto;margin-right:auto;}
+
+
+.hk{border-bottom:2px solid #e5e5e5;margin-left:20px;margin-right:20px;}
+.hk1{float:left;width:280px;font-size:20px;color:#434343; line-height:54px;}
+.hk2{float:left; width:500px;text-align:right; font-size:18px;color:#707070;margin-right:80px;}
+.hk3{float:left; width:250px;text-align:right;font-size:18px;color:#707070;}
+.hk_line{float:left;width:1px; height:60px; margin-top:20px; background-color:#e5e5e5;}
+.hk_num1{font-size:24px;line-height:80px;color:#707070;}
+.hk_num2{font-size:30px;line-height:80px; color:#ff6000;}
+.gerenr1_tittle2{clear:both;font-size:18px;color:#434343; margin-bottom:18px;}
+
+
+.hkbox_banner{ width:1158px; height:800px; margin-left:20px;overflow:hidden;}
+.hkbox_banner1{ margin-left:60px; margin-top:100px;}
+
+.hkbox1{width:222px; height:38px; border:1px solid #ff6000;overflow:hidden; margin-bottom:60px;}
+.hkbox1 img{float:left; margin-left:10px; }
+.pay_list_c1{ float:left;width:17px;height:20px;cursor:pointer;text-align:center;background:url(../images/rideo.png) no-repeat 0px 2px; margin-left:14px; margin-top:10px;}
+.radioclass{opacity:0;cursor: pointer;-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";filter:alpha(opacity=0);}
+.on{background-position: -25px 2px;}
+.hkbox1on{border:1px solid #d9d9d9;}
+
+
+.hkbox_btn{ width:174px; height:40px;color:#fff; background-color:#ff6000;font-size:18px; margin-left:60px; margin-top:30px; cursor:pointer;}
+
+
+
+
+
+
+
+
+
+
+
